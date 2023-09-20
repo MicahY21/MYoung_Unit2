@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 4537458281836249680}
   - component: {fileID: 4537458281838418478}
   - component: {fileID: 18303361146137524}
+  - component: {fileID: 2108752254049197521}
+  - component: {fileID: -6951277924309950681}
   m_Layer: 0
   m_Name: Projectile_Pizza
   m_TagString: Untagged
@@ -110,3 +112,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ac34000dd24c14d925a9a0a309da91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &2108752254049197521
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4537458281838517392}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &-6951277924309950681
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4537458281838517392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4895397, y: 0.13234863, z: 0.52876365}
+  m_Center: {x: -0.0149194, y: 0, z: -0.03177611}
